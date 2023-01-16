@@ -6,7 +6,7 @@ A simple Docker compose manifest that hosts the documentation for [brimdor/homel
 
 The [brimdor/homelab](https://github.com/brimdor/homelab) repo comes bundled with:
 1. The documentation for the lab itself.
-2. The ability to host the docs via the `make docs` command - This creates a container that hosts the documentation on port `8000` and is accessible via `HTTP/S` but can only be initiated after cloning [brimdor/homelab](https://github.com/brimdor/homelab) and running the `make tools` command, else installing all required dependencies needed, which are included in this manifest.
+2. The ability to host the docs via the `make docs` command - This creates a container that hosts the documentation on port `80` and is accessible via `HTTP/S` but can only be initiated after cloning [brimdor/homelab](https://github.com/brimdor/homelab) and running the `make tools` command, else installing all required dependencies needed, which are included in this manifest.
 
 Upon creation, the container grabs and runs the `squidfunk/mkdocs-material` image and will watch the paths for changes to either the 'docs' folder or the 'mkdocs.yml' definition file and serve them accordingly.
 
