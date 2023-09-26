@@ -30,3 +30,6 @@ jobs:
 
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         run: make deploy
+
+      - name: Setup custom domain 🌐
+        run: echo 'homelab.eaglepass.io' > ./site/CNAME
