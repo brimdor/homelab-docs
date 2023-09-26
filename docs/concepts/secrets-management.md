@@ -34,7 +34,7 @@ This is useful when you want to generate random secrets like admin password and 
 
 ```yaml title="https://github.com/brimdor/homelab/platform/vault/files/generate-secrets/config.yaml" hl_lines="2-6"
 --8<--
-./platform/vault/files/generate-secrets/config.yaml
+https://github.com/brimdor/homelab/platform/vault/files/generate-secrets/config.yaml
 --8<--
 ```
 
