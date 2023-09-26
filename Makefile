@@ -5,25 +5,25 @@ default: install
 all: install build
 
 
-h help:
-	@grep '^[a-z]' Makefile
+# h help:
+# 	@grep '^[a-z]' Makefile
 
 
 install:
 	pip install pip --upgrade
 	pip install -r requirements.txt
 
-upgrade:
-	pip install pip --upgrade
-	pip install -r requirements.txt --upgrade
+# upgrade:
+# 	pip install pip --upgrade
+# 	pip install -r requirements.txt --upgrade
 
 
-s serve:
-	mkdocs serve --strict
+# s serve:
+# 	mkdocs serve --strict
 
 
-b build:
-	mkdocs build --strict
+# b build:
+# 	mkdocs build --strict
 
 d deploy:
 	mkdocs gh-deploy --strict --force
