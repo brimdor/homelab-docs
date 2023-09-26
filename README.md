@@ -2,6 +2,7 @@
 
 **[Features](#features) • [Get Started](#get-started) • [Documentation](https://homelab.eaglepass.io)**
 
+
 This project utilizes [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) and [GitOps](https://www.weave.works/technologies/gitops) to automate provisioning, operating, and updating self-hosted services in my homelab.
 It can be used as a highly customizable framework to build your own homelab.
 
