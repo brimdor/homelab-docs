@@ -33,3 +33,11 @@ jobs:
 
       - name: Setup custom domain 🌐
         run: echo 'homelab.eaglepass.io' > ./site/CNAME
+      
+      - name: Deploy CNAME
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions@github.com"
+          git add ./site/CNAME
+          git commit -m "Add CNAME"
+          git push origin gh-pages
