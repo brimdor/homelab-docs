@@ -1,8 +1,8 @@
 name: Build and Deploy MkDocs
 on:
   push:
-    paths:
-      - 'docs/**'
+    branches:
+      - main
 jobs:
   build-deploy:
     name: Build and deploy docs
