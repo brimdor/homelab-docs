@@ -30,7 +30,7 @@ make configure
 
     ```
     Text editor (nvim):
-    Enter seed repo (github.com/khuedoan/homelab): github.com/example/homelab
+    Enter seed repo (github.com/brimdor/homelab): github.com/example/homelab
     Enter your domain (eaglepass.io): example.com
     ```
 

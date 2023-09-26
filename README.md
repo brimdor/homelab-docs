@@ -216,7 +216,7 @@ They can't capture all the project's features, but they are sufficient to get a 
 
 ## Roadmap
 
-See [roadmap](https://homelab.eaglepass.io/reference/roadmap) and [open issues](https://github.com/khuedoan/homelab/issues) for a list of proposed features and known issues.
+See [roadmap](https://homelab.eaglepass.io/reference/roadmap) and [open issues](https://github.com/brimdor/homelab/issues) for a list of proposed features and known issues.
 
 ## Contributing
 
@@ -226,7 +226,7 @@ Please see [contributing guide](https://homelab.eaglepass.io/reference/contribut
 
 ## License
 
-Copyright &copy; 2020 - 2022 Khue Doan (Edited by Brimdor)
+Copyright &copy; 2020 - 2022 Brimdor (Edited by Brimdor)
 
 Distributed under the GPLv3 License.
 See [license page](https://homelab.eaglepass.io/reference/license) or `LICENSE.md` file for more information.

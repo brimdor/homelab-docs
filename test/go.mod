@@ -89,4 +89,4 @@ require (
 )
 
 // TODO https://github.com/gruntwork-io/terratest/pull/1182
-replace github.com/gruntwork-io/terratest v0.40.18 => github.com/khuedoan/terratest v0.0.0-20220921151310-016fe8e1536b
+replace github.com/gruntwork-io/terratest v0.40.18 => github.com/brimdor/terratest v0.0.0-20220921151310-016fe8e1536b

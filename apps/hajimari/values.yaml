@@ -27,7 +27,7 @@ hajimari:
           - name: Documentation
             url: https://homelab.eaglepass.io
           - name: Public GitHub repository
-            url: https://github.com/khuedoan/homelab
+            url: https://github.com/brimdor/homelab
       - group: Managed services
         bookmarks:
           - name: Terraform Cloud

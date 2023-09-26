@@ -20,13 +20,13 @@ repositories:
       mirror: false
     hook: true
   - name: blog
-    owner: khuedoan
+    owner: brimdor
     migrate:
-      source: https://github.com/khuedoan/blog
+      source: https://github.com/brimdor/blog
       mirror: true
     hook: true
   - name: backstage
-    owner: khuedoan
+    owner: brimdor
     migrate:
-      source: https://github.com/khuedoan/backstage
+      source: https://github.com/brimdor/backstage
       mirror: true

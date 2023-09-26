@@ -6,7 +6,7 @@ Add both push URLs (replace my repositories with yours):
 
 ```sh
 git remote set-url --add --push origin git@git.eaglepass.io:ops/homelab
-git remote set-url --add --push origin git@github.com:khuedoan/homelab
+git remote set-url --add --push origin git@github.com:brimdor/homelab
 ```
 
 Now you can just run `git push` like usual and it will push to both GitHub and Gitea.

@@ -1,4 +1,4 @@
-module git.eaglepass.io/khuedoan/homelab/vault/init
+module git.eaglepass.io/brimdor/homelab/vault/init
 
 go 1.19
 
