@@ -1,6 +1,6 @@
 # Brimdor's Homelab
 
-**[Features](#features) • [Get Started](#get-started) • [Documentation](https://homelab.khuedoan.com)**
+**[Features](#features) • [Get Started](#get-started) • [Documentation](https://homelab.eaglepass.io)**
 
 This project utilizes [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) and [GitOps](https://www.weave.works/technologies/gitops) to automate provisioning, operating, and updating self-hosted services in my homelab.
 It can be used as a highly customizable framework to build your own homelab.
@@ -212,24 +212,24 @@ They can't capture all the project's features, but they are sufficient to get a 
 
 ## Get Started
 
-- [Deploy on real hardware](https://homelab.khuedoan.com/installation/production/prerequisites) for production workload
+- [Deploy on real hardware](https://homelab.eaglepass.io/installation/production/prerequisites) for production workload
 
 ## Roadmap
 
-See [roadmap](https://homelab.khuedoan.com/reference/roadmap) and [open issues](https://github.com/khuedoan/homelab/issues) for a list of proposed features and known issues.
+See [roadmap](https://homelab.eaglepass.io/reference/roadmap) and [open issues](https://github.com/khuedoan/homelab/issues) for a list of proposed features and known issues.
 
 ## Contributing
 
 Any contributions you make are greatly appreciated.
 
-Please see [contributing guide](https://homelab.khuedoan.com/reference/contributing) for more information.
+Please see [contributing guide](https://homelab.eaglepass.io/reference/contributing) for more information.
 
 ## License
 
 Copyright &copy; 2020 - 2022 Khue Doan (Edited by Brimdor)
 
 Distributed under the GPLv3 License.
-See [license page](https://homelab.khuedoan.com/reference/license) or `LICENSE.md` file for more information.
+See [license page](https://homelab.eaglepass.io/reference/license) or `LICENSE.md` file for more information.
 
 ## Acknowledgements
 
