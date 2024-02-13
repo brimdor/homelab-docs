@@ -49,9 +49,9 @@ More information can be found in [the roadmap](#roadmap) below.
 - [x] Private container registry
 - [x] Distributed storage
 - [x] Support multiple environments (dev, prod)
-- [ ] Monitoring and alerting 🚧
+- [x] Monitoring and alerting
 - [ ] Automated offsite backups 🚧
-- [ ] Single sign-on 🚧
+- [x] Single sign-on
 - [x] Infrastructure testing
 
 Some demo videos and screenshots are shown here.
