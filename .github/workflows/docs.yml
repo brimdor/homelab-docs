@@ -29,8 +29,8 @@ jobs:
 
       - name: Install dependencies (with specific versions)
         run: |
-          pip install mkdocs-material==9.2.3
-          pip install pymdownx==8.1.0
+          pip install mkdocs-material
+          pip install pymdown-extensions
 
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         run: make deploy
