@@ -22,6 +22,7 @@ More information can be found in [the roadmap](#roadmap) below.
 
 ### Hardware
 
+![Nodes](https://drive.google.com/uc?id=1SRlCLolzmB37S68bckVka3SoqFv9O2te)
 - 4 × NEC SFF `PC-MK26ECZDR` (Japanese version of the ThinkCentre M700):
     - CPU: `Intel Core i5-6600T @ 2.70GHz`
     - RAM: `16GB`
