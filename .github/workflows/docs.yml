@@ -6,7 +6,6 @@ on:
 jobs:
   build-deploy:
     name: Build and deploy docs
-
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +26,11 @@ jobs:
 
       - name: Install dependencies 🔧
         run: make install
+
+      - name: Install dependencies (with specific versions)
+        run: |
+          pip install mkdocs-material==9.2.3
+          pip install pymdownx==8.1.0
 
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         run: make deploy
