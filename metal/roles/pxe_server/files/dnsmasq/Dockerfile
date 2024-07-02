@@ -1,4 +1,4 @@
-FROM alpine:3.18.6
+FROM alpine:3
 
 RUN apk --no-cache add dnsmasq
 
