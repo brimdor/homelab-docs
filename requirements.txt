@@ -5,4 +5,5 @@
 mkdocs
 mkdocs-material
 jinja2
-requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2
+requests>=2.32.0
