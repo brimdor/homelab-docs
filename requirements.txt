@@ -5,3 +5,5 @@
 mkdocs
 mkdocs-material
 jinja2
+urllib3>=2.2.2
+requests>=2.32.0
