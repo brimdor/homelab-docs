@@ -20,7 +20,7 @@ Install the following packages:
 Clone the repository and checkout the development branch:
 
 ```sh
-git clone https://github.com/brimdor/homelab
+git clone https://github.com/khuedoan/homelab
 git checkout dev
 ```
 
@@ -37,7 +37,7 @@ Open the tools container, which includes all the tools needed:
 === "Nix"
 
     ```sh
-    nix-shell
+    nix develop
     ```
 
 Build a development cluster and bootstrap it:

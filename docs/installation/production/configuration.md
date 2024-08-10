@@ -11,7 +11,7 @@ Open the [tools container](../../concepts/tools-container.md), which includes al
 === "Nix"
 
     ```sh
-    nix-shell
+    nix develop
     ```
 
 !!! note
@@ -30,8 +30,8 @@ make configure
 
     ```
     Text editor (nvim):
-    Enter seed repo (github.com/brimdor/homelab): github.com/example/homelab
-    Enter your domain (eaglepass.io): example.com
+    Enter seed repo (github.com/khuedoan/homelab): github.com/example/homelab
+    Enter your domain (khuedoan.com): example.com
     ```
 
 It will prompt you to edit the inventory:
