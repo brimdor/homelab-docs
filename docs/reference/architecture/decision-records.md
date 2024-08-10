@@ -19,56 +19,12 @@ They are not permanent, we can change them in the future if better alternatives 
 
     - CHANGEME
 
-## Remove HashiCorp Vault
-
-**Context**
-
-- HashiCorp changed their license, and it's no longer free/libre software.
-  One of the highest priorities of this project is to minimize
-  the usage of non-free software as much as possible, so I don't really
-  want to keep Vault, especially considering the next point.
-- Vault is fairly complex to maintain properly. This project only uses
-  Vault for two things: basic key-value secret store and its API to
-  create and manage secrets dynamically. With the new Kubernetes secret
-  provider in External Secrets, both features can be replaced with
-  Kubernetes's built-in secrets and API server.
-- A related goal of using Vault as an identity provider for SSO will be
-  discarded, and we'll use Authelia instead, which has a beta identity
-  provider feature (or use another alternative).
-
-**Decision**
-
-Replace Vault with a simplier in-cluster global secret store.
-
-**Consequences**
-
-Unlike secret path in Vault, Kubernetes does not support `/` in object name.
-We need to change secret convention from `path` to `name` and replace `/` with `.`.
-
-Update secret generator config:
-
-```diff
--- path: gitea/admin
-+- name: gitea.admin
-   data:
-     - key: password
-       length: 32
-```
-
-Update secret references in `kind: ExternalSecret`:
-
-```diff
- remoteRef:
--  key: /gitea/admin
-+  key: gitea.admin
-```
-
 ## Manage package versions in tools container
 
 **Context**
 
 While Nix is reproducible, we need a way to control the versions of the tools and keep them up-to-date.
-For example, if we update the nixpkgs hash (in `flake.nix`) from `abcd1234` to `defa5678`:
+For example, if we update the nixpkgs hash (in `shell.nix`) from `abcd1234` to `defa5678`:
 
 - `ansible`: 2.12.1 -> 2.12.6
 - `terraform`: 1.2.0 -> 1.2.2
@@ -82,7 +38,7 @@ That looks good. But when we update it from `defa5678` to `cdef9012`:
 
 This time it breaks `foobar` because the new major version contains a breaking change.
 
-We can pin the specific version of each dependency in `flake.nix`,
+We can pin the specific version of each dependency in `shell.nix`,
 however, the maintenance burden is too high (even with Renovate) because we need to update the version of each package regularly rather than just the nixpkgs hash.
 Instead, we can just bump the nixpkgs hash and run some tests to ensure there is no breaking change.
 
@@ -115,7 +71,7 @@ Move to Nix shell with a Docker wrapper, in case Nix is not available (see commi
 
 **Context**
 
-[Original proposal from @Bourne-ID](https://github.com/khuedoan/homelab/issues/70):
+[Original proposal from @Bourne-ID](https://github.com/brimdor/homelab/issues/70):
 
 > **Issue statement**
 >
@@ -179,7 +135,7 @@ Alternatives considered:
     - Pros: automatic and atomic upgrade, immutable, quick installation
     - Cons: hard to run Ansible on (Python is not included)
 - CentOS/Rocky Linux (moved to Fedora in `022b816`):
-    - Pros: relatively stable (however we did encounter a breaking change [#63](https://github.com/khuedoan/homelab/issues/63), still not sure why)
+    - Pros: relatively stable (however we did encounter a breaking change [#63](https://github.com/brimdor/homelab/issues/63), still not sure why)
     - Cons: kernel and packages are too old
 - Debian: couldn't get it to work with PXE boot and Rocky Linux was sufficient so I didn't push any further
 - Cluster API (previous attempt in ` a8e4a85`, I hope to get this to work someday):

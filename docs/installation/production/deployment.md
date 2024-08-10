@@ -11,7 +11,7 @@ Open the tools container if you haven't already:
 === "Nix"
 
     ```sh
-    nix develop
+    nix-shell
     ```
 
 Build the lab:
