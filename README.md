@@ -64,42 +64,6 @@ More information can be found in [the roadmap](#roadmap) below.
 - [x] Single sign-on
 - [x] Infrastructure testing
 
-Some demo videos and screenshots are shown here.
-They can't capture all the project's features, but they are sufficient to get a concept of it.
-
-| Demo                                                                                                            |
-| :--:                                                                                                            |
-| [![][deploy-demo]](https://asciinema.org/a/xkBRkwC6e9RAzVuMDXH3nGHp7)                                           |
-| Deploy with a single command (after updating the configuration files)                                           |
-| [![][pxe-demo]](https://www.youtube.com/watch?v=y-d7btNNAT8)                                                    |
-| PXE boot                                                                                                        |
-| [![][hubble-demo]][hubble-demo]                                                                                 |
-| Observe network traffic with Hubble, built on top of [Cilium](https://cilium.io) and eBPF                       |
-| [![][homepage-demo]][homepage-demo]                                                                             |
-| Homepage powered by... [Homepage](https://gethomepage.dev)                                                      |
-| [![][grafana-demo]][grafana-demo]                                                                               |
-| Monitoring dashboard powered by [Grafana](https://grafana.com)                                                  |
-| [![][gitea-demo]][gitea-demo]                                                                                   |
-| Git server powered by [Gitea](https://gitea.io/en-us)                                                           |
-| [![][woodpecker-demo]][woodpecker-demo]                                                                         |
-| Continuous integration with [Woodpecker CI](https://woodpecker-ci.org)                                          |
-| [![][argocd-demo]][argocd-demo]                                                                                 |
-| Continuous deployment with [ArgoCD](https://argoproj.github.io/cd)                                              |
-| [![][alert-demo]][alert-demo]                                                                                   |
-| [ntfy](https://ntfy.sh) displaying received alerts                                                              |
-| [![][ai-demo]][ai-demo]                                                                                         |
-| Self-hosted AI powered by [Ollama](https://ollama.com) (experimental, not very fast because I don't have a GPU) |
-
-[deploy-demo]: https://asciinema.org/a/xkBRkwC6e9RAzVuMDXH3nGHp7.svg
-[pxe-demo]: https://user-images.githubusercontent.com/27996771/157303477-df2e7410-8f02-4648-a86c-71e6b7e89e35.png
-[homepage-demo]: https://user-images.githubusercontent.com/27996771/149445807-0f869eb7-d8f5-4fef-ab97-ac281df91a06.png
-[grafana-demo]: https://user-images.githubusercontent.com/27996771/149446631-1c5d056b-1fdc-48e6-96ba-e1abe1762be0.png
-[gitea-demo]: https://user-images.githubusercontent.com/27996771/149444871-38889c9d-862f-41ff-8c05-8ece21da3e9c.png
-[tekton-demo]: https://user-images.githubusercontent.com/27996771/149445374-58fd0605-bb9a-46e4-81d6-5e584d2b94a9.png
-[argocd-demo]: https://user-images.githubusercontent.com/27996771/149444716-fc0d7282-4cf7-4ddb-97a4-1a3fb47ff2b8.png
-[lens-demo]: https://user-images.githubusercontent.com/27996771/149448896-9d79947d-468c-45c6-a81d-b43654e8ab6b.png
-[vault-demo]: https://user-images.githubusercontent.com/27996771/149452309-de4a893b-e94c-4ba8-9119-ea87449cf77e.png
-
 ### Tech stack
 
 <table>
