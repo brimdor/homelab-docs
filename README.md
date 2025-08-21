@@ -28,12 +28,18 @@ More information can be found in [the roadmap](#roadmap) below.
     - SSD: `128GB`
 - 1 x Lenovo Thinkcentre M900:
     - CPU: `Intel Core i7-6700 @ 4.0GHz`
+    - RAM: `64GB`
+    - SSD: `1TB`
+    - GPU: `Geforce RTX 3090`
+- 1 x Lenovo Thinkcentre M900:
+    - CPU: `Intel Core i7-6700 @ 4.0GHz`
     - RAM: `32GB`
     - SSD: `1TB`
-- Protectli Vault FW2B:
-    - CPU: `Intel Dual Core`
-    - RAM: `4GB`
-    - SSD: `32GB`
+    - GPU: `Geforce GTX 1650`
+- OPNSense:
+    - CPU: `Intel Quad Core`
+    - RAM: `8GB`
+    - SSD: `128GB`
 - Linksys `LGS124` Unmanaged Switch:
     - PORTS: `24`
     - BANDWIDTH: `10/100/1000`
