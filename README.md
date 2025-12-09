@@ -233,7 +233,7 @@ Please see [contributing guide](https://homelab.eaglepass.io/reference/contribut
 
 ## License
 
-Copyright &copy; 2020 - 2022 Brimdor (Edited by Brimdor) based on [khuedoan/homelab](https://github.com/khuedoan/homelab)
+Copyright &copy; 2020 - 2026 Brimdor (Edited by Brimdor) based on [khuedoan/homelab](https://github.com/khuedoan/homelab)
 
 Distributed under the GPLv3 License.
 See [license page](https://homelab.eaglepass.io/reference/license) or `LICENSE.md` file for more information.
