@@ -50,7 +50,8 @@ More information can be found in [the roadmap](#roadmap) below.
 
 ### Features
 
-- [x] Common applications: Gitea, Seafile, Jellyfin, Paperless...
+- [x] Common applications: Gitea, Emby, OpenWebUI, Radarr, Sonarr...
+- [x] AI/LLM capabilities with LocalAI, Ollama, and OpenWebUI
 - [x] Automated bare metal provisioning with PXE boot
 - [x] Automated Kubernetes installation and management
 - [x] Installing and managing applications using GitOps
@@ -59,15 +60,15 @@ More information can be found in [the roadmap](#roadmap) below.
 - [x] Modular architecture, easy to add or remove features/components
 - [x] Automated certificate management
 - [x] Automatically update DNS records for exposed services
-- [x] VPN without port forwarding
 - [x] Expose services to the internet securely with [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)
 - [x] CI/CD platform
 - [x] Private container registry
-- [x] Distributed storage
+- [x] Distributed storage with Rook Ceph
+- [x] GPU support with NVIDIA GPU Operator
 - [x] Support multiple environments (dev, prod)
 - [x] Monitoring and alerting
 - [ ] Automated offsite backups 🚧
-- [x] Single sign-on
+- [x] Single sign-on with Kanidm
 - [x] Infrastructure testing
 
 ### Tech stack
@@ -158,11 +159,7 @@ More information can be found in [the roadmap](#roadmap) below.
         <td><a href="https://www.nginx.com">NGINX</a></td>
         <td>Kubernetes Ingress Controller</td>
     </tr>
-    <tr>
-        <td><img width="32" src="https://ntfy.sh/_next/static/media/logo.077f6a13.svg"></td>
-        <td><a href="https://ntfy.sh">ntfy</a></td>
-        <td>Notification service to send notifications to your phone or desktop</td>
-    </tr>
+
     <tr>
         <td><img width="32" src="https://avatars.githubusercontent.com/u/3380462"></td>
         <td><a href="https://prometheus.io">Prometheus</a></td>
@@ -179,14 +176,34 @@ More information can be found in [the roadmap](#roadmap) below.
         <td>Cloud-Native Storage for Kubernetes</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/48932923?s=200&v=4"></td>
-        <td><a href="https://tailscale.com">Tailscale</a></td>
-        <td>VPN without port forwarding</td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/126733545"></td>
+        <td><a href="https://github.com/NVIDIA/gpu-operator">GPU Operator</a></td>
+        <td>NVIDIA GPU support for Kubernetes workloads</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/13991055?s=200&v=4"></td>
-        <td><a href="https://www.wireguard.com">Wireguard</a></td>
-        <td>Fast, modern, secure VPN tunnel</td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/132372032"></td>
+        <td><a href="https://localai.io">LocalAI</a></td>
+        <td>Self-hosted AI inference engine</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://ollama.com/public/ollama.png"></td>
+        <td><a href="https://ollama.com">Ollama</a></td>
+        <td>Run large language models locally</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/158137808"></td>
+        <td><a href="https://openwebui.com">OpenWebUI</a></td>
+        <td>Web interface for LLM interactions</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/17755054"></td>
+        <td><a href="https://searxng.org">SearXNG</a></td>
+        <td>Privacy-respecting metasearch engine</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/128688093"></td>
+        <td><a href="https://volsync.readthedocs.io">VolSync</a></td>
+        <td>Asynchronous volume replication for Kubernetes</td>
     </tr>
     <tr>
         <td><img width="32" src="https://avatars.githubusercontent.com/u/84780935?s=200&v=4"></td>
