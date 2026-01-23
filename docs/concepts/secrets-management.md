@@ -32,11 +32,11 @@ flowchart TD
 
 This is useful when you want to generate random secrets like admin password and store in Vault.
 
-```yaml title="./platform/vault/files/generate-secrets/config.yaml" hl_lines="2-6"
---8<--
-./platform/vault/files/generate-secrets/config.yaml
---8<--
-```
+!!! warning "Vault Not Currently Deployed"
+
+    HashiCorp Vault is not currently part of the active homelab infrastructure. 
+    The secrets management documentation below describes the intended architecture 
+    for future implementation.
 
 ## How secrets are pulled from Vault to Kubernetes
 
